@@ -76,7 +76,6 @@ document.body.appendChild(button);
 
 //1.6
 
-
 const myDivs = document.querySelectorAll("div");
 
 myDivs.forEach(div1 => {
@@ -86,5 +85,5 @@ myDivs.forEach(div1 => {
 	button.addEventListener("click", () => {
 		const padre = div1.parentNode;
 		padre.removeChild(div1);
-	})
+	});
 });
